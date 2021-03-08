@@ -7,7 +7,7 @@ import (
 
 	"database/sql"
 
-	_ "github.com/mattn/go-sqlite3"
+	_ "modernc.org/sqlite"
 )
 
 type configStruct struct {
@@ -18,7 +18,7 @@ type configStruct struct {
 func main() {
 	config := parseArgs()
 
-	db, err := sql.Open("sqlite3", config.GrafanaDatabase)
+	db, err := sql.Open("sqlite", config.GrafanaDatabase)
 
 	if err != nil {
 		fmt.Print(err)
