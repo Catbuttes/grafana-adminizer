@@ -1,6 +1,6 @@
 # Grafana Adminizer
 
-This is a tool to boost any user up to Grafana server admin. Created because I am a dumbass and removed the admin user by mistake.
+This is a tool to boost any user up to Grafana server admin. Created because I am a dumbass and removed the admin user by mistake. If anybody else find it useful, enjoy!
 
 ## Usage
 
